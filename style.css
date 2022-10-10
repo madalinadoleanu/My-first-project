@@ -1,0 +1,250 @@
+* { 
+ margin: 0; 
+ padding: 0; 
+
+} 
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to left, #4A707A, #7697A0, #94B0B7, #C2C8C5, #DDDDDA);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #000!important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #000;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
+
+/*-------------Banner section---------------*/
+
+#banner{;
+    background-image: linear-gradient(to left, #4A707A, #7697A0, #94B0B7, #C2C8C5, #DDDDDA);
+    color: #000;
+    padding-top: 0%; 
+    width: 100%;
+    
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #000;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+   
+}
+
+
+/*-------------End of the Banner section---------------*/
+
+
+
+
+/*-----------Everything's gonna be fine--------------*/
+
+#fine{
+    padding: 80px 0;
+}
+
+.service-img{
+    width: 90px;
+    margin-top: 20px;
+}
+
+.fine{
+    padding: 20px;
+}
+
+.fine h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+   transform: translate(42px, 18px);
+}
+
+.title::after{
+    content: '';
+    background: #7697A0; 
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    border-radius: 50%;
+   
+}
+
+
+#fine .btn-primary{
+   padding: 8px 25px;
+   background-image: linear-gradient(to right, #4A707A, #7697A0);
+   border: none;
+   border-radius: 50%;
+}
+
+
+/*-----------End of Everything's gonna be fine--------------*/
+
+
+
+
+/*-----------Gallery section--------------*/
+
+
+
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    display: block;
+    color: #000;
+    text-shadow: -4px 4px 4px #4A707A; 
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-25%);
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+
+/*-----------End of gallery section--------------*/
+
+
+
+/*-----------Subscribe section--------------*/
+
+
+.footer{
+    background-image: linear-gradient(to left, #4A707A, #7697A0, #94B0B7, #C2C8C5, #DDDDDA);
+}
+
+
+}
+
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer button{
+    padding: 8px 15px;
+    border-radius: 80%;
+    width: 220px;
+    margin: auto;
+    display: block;
+    color: #000;
+    border: 2px solid #000;
+    font-size: 15px;
+    background: transparent;
+}
+
+
+.subscribe{
+    display:inline-block; 
+}
+/*-----------End of Subscribe section--------------*/
+
+
+
+
+
+/*---------------There she goes again--------------*/
+
+#about-us
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+}
+
+#about-us ul
+{
+    margin-left: 20px;
+}
+
+
+/*---------------End of There she goes again--------------*/
+
+
+
+
+
+
